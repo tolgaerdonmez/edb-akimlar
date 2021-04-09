@@ -1,0 +1,20 @@
+$medium: 1050px;
+$mobile: 795px;
+
+@mixin desktop {
+  @media (min-width: $mobile) {
+    @content;
+  }
+}
+
+@mixin medium {
+  @media (min-width: $mobile) and (max-width: $medium) {
+    @content;
+  }
+}
+
+@mixin mobile {
+  @media (max-width: $mobile) {
+    @content;
+  }
+}

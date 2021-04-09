@@ -1,0 +1,16 @@
+{
+	"akimlar": [
+		{ "name": "Klassizm" },
+		{ "name": "Romantizm" },
+		{ "name": "Realizm" },
+		{ "name": "Naturalizm" },
+		{ "name": "Parnasizm" },
+		{ "name": "Sembolizm" },
+		{ "name": "Empresyonizm" },
+		{ "name": "Ekspresyonizm" },
+		{ "name": "Sürrealizm" },
+		{ "name": "Fütürizm" },
+		{ "name": "Egzistanyalizm" },
+		{ "name": "Dadaizm" }
+	]
+}
