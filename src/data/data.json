@@ -20,16 +20,16 @@
 				"Anlatımda açık ve durulardır, yapıtlarının biçimini ve güzelliğini kusursuzlaştırmayı önemserler."
 			]
 		},
-		{ "name": "Klassizm" },
-		{ "name": "Romantizm" },
-		{ "name": "Naturalizm" },
-		{ "name": "Parnasizm" },
-		{ "name": "Sembolizm" },
-		{ "name": "Empresyonizm" },
-		{ "name": "Ekspresyonizm" },
-		{ "name": "Sürrealizm" },
-		{ "name": "Fütürizm" },
-		{ "name": "Egzistanyalizm" },
-		{ "name": "Dadaizm" }
+		{ "name": "Klassizm", "authors": [], "content": [] },
+		{ "name": "Romantizm", "authors": [], "content": [] },
+		{ "name": "Naturalizm", "authors": [], "content": [] },
+		{ "name": "Parnasizm", "authors": [], "content": [] },
+		{ "name": "Sembolizm", "authors": [], "content": [] },
+		{ "name": "Empresyonizm", "authors": [], "content": [] },
+		{ "name": "Ekspresyonizm", "authors": [], "content": [] },
+		{ "name": "Sürrealizm", "authors": [], "content": [] },
+		{ "name": "Fütürizm", "authors": [], "content": [] },
+		{ "name": "Egzistanyalizm", "authors": [], "content": [] },
+		{ "name": "Dadaizm", "authors": [], "content": [] }
 	]
 }

@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import { AkimListPage } from "./pages/AkimListPage";
+import { AkimPage } from "./pages/AkimPage";
 import { Home } from "./pages/Home";
 
 function App() {
@@ -8,8 +8,8 @@ function App() {
 		<Router>
 			<div>
 				<Switch>
-					<Route path="/akimlar">
-						<AkimListPage />
+					<Route path="/akimlar/:name?">
+						<AkimPage />
 					</Route>
 					<Route path="/">
 						<Home />

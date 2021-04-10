@@ -12,3 +12,32 @@
 		color: $red;
 	}
 }
+
+.navigateButton {
+	font-size: 3rem;
+	position: relative;
+	&::after {
+		content: " ";
+		position: absolute;
+		left: 0;
+		bottom: 0;
+
+		height: 2rem;
+		width: 100%;
+
+		border-bottom: solid white 0.3rem;
+
+		transition: transform 150ms ease;
+		transform: scaleX(0);
+		transform-origin: left;
+	}
+	&:hover::after {
+		transform: scaleX(1);
+	}
+}
+
+.navigateButtonSelected {
+	&::after {
+		transform: scaleX(1);
+	}
+}
