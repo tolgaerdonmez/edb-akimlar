@@ -1,6 +1,7 @@
 import React, { ReactElement } from "react";
 import "../styles/pages/AkimListPage.scss";
 import { akimlar } from "../data.json";
+import { Avatar } from "../components/Avatar";
 
 interface Props {}
 
@@ -18,12 +19,19 @@ export function AkimListPage({}: Props): ReactElement {
 				))}
 			</div>
 			<div className="content">
-				<h1>Realizm</h1>
-				<p>
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus adipisci nobis delectus iusto
-					corporis neque consequatur, similique architecto labore ut? Cum veniam nam at explicabo doloremque,
-					repudiandae totam asperiores eius.
-				</p>
+				<div className="info">
+					<h1>{akimlar[0].name}</h1>
+					{akimlar[0].content?.map(c => (
+						<p>{c}</p>
+					))}
+				</div>
+				<ul className="authors">
+					{akimlar[0].authors?.map(({ name }) => (
+						<li>
+							<Avatar title={name} src={`./img/${name?.replace(" ", "")}.jpg`} />
+						</li>
+					))}
+				</ul>
 			</div>
 		</div>
 	);

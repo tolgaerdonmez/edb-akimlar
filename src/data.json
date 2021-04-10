@@ -1,8 +1,27 @@
 {
 	"akimlar": [
+		{
+			"name": "Realizm",
+			"authors": [
+				{ "name": "Stendhal", "books": ["Kırmızı ve Siyah", "Parma Manastırı"] },
+				{ "name": "Balzac", "books": ["Vadideki Zambak", "Eugenie Grandet", "Goriot Baba Gustave Flaubert"] },
+				{ "name": "Charles Dickens", "books": ["Oliver Twist", "David Copperfield"] },
+				{ "name": "Nikolay Gogol", "books": ["Ölü Canlar", "Müfettiş"] },
+				{ "name": "Fyodor Dostoyevski", "books": ["Suç ve Ceza", "Karamazof Kardeşler", "Budala Tolstoy"] },
+				{ "name": "Mark Twain", "books": ["Tom Sawyer'in Maceraları"] },
+				{ "name": "Anton Çehov", "books": ["Vanya Dayı", "Vişne Bahçesi"] },
+				{ "name": "Ernest Hemingway", "books": ["Çanlar Kimin İçin Çalıyor?"] },
+				{ "name": "John Steinbeck", "books": ["Gazap Üzümleri"] },
+				{ "name": "Herman Melville", "books": ["Moby Dick"] }
+			],
+			"content": [
+				"Realizm akımını benimsemiş sanatçılar; toplumu ve insanı, bir bilim adamının bakış açısıyla gözlemlerler, kendi görüşlerini bu gözlemlere katmazlar, aynı zamanda doğrulanmış belgelere de başvururlar bu yüzden realizm akımının eserlerinde gerçek olduğu gibi yansıtılmıştır, bir fotoğrafçının çekmiş olduğu fotoğraf gibi herkese aynı gözükmüştür. İnsanlar yaşadığı ortamda anlatılmış, çevrenin kişilikleri üzerindeki etkisi ve önemi vurgulanmıştır, tabii ki bunlarda olağanüstü bir durum yoktur, olamaz. Bunları yaparken kullanılan betimlemelerin amacı olduğu gibi aktarmak olduğundan, süslü bir anlatım bulunmaz.",
+				"Realizmde sanatçıların benimsedikleri ilke “sanat için sanat” tır. Amaçları sanat yapmaktır.",
+				"Anlatımda açık ve durulardır, yapıtlarının biçimini ve güzelliğini kusursuzlaştırmayı önemserler."
+			]
+		},
 		{ "name": "Klassizm" },
 		{ "name": "Romantizm" },
-		{ "name": "Realizm" },
 		{ "name": "Naturalizm" },
 		{ "name": "Parnasizm" },
 		{ "name": "Sembolizm" },

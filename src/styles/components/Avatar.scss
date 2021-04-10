@@ -1,0 +1,20 @@
+.avatarContainer {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+
+	img {
+		width: 20rem;
+		height: 20rem;
+		object-fit: cover;
+
+		border-radius: 50%;
+
+		margin-bottom: 1rem;
+	}
+
+	p {
+		font-size: 2.5rem;
+		text-align: center;
+	}
+}

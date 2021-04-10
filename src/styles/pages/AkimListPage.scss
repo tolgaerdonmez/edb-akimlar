@@ -21,7 +21,7 @@
 
 			flex-direction: column;
 
-			padding: 10rem 3rem;
+			padding: 1.5rem 3rem;
 
 			border-right: solid 0.3rem white;
 			div {
@@ -37,14 +37,42 @@
 			flex-direction: column;
 			align-items: flex-start;
 
+			overflow-x: auto;
+
 			padding: 3rem;
 
-			h1 {
-				font-size: 5rem;
-				padding-bottom: 2rem;
+			.info {
+				flex-grow: 1;
+				h1 {
+					font-size: 5rem;
+					padding-bottom: 2rem;
+				}
+				p {
+					font-size: 3rem;
+					margin-bottom: 2rem;
+				}
 			}
-			p {
-				font-size: 3rem;
+
+			.authors {
+				width: 100%;
+				padding: 2rem;
+
+				overflow-x: scroll;
+				list-style: none;
+
+				display: flex;
+				flex-direction: row;
+				align-items: center;
+
+				-webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+				-moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+				box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+
+				border-radius: 0.5rem;
+
+				li {
+					margin: 0 2rem;
+				}
 			}
 		}
 		// .akimGrid {
@@ -65,4 +93,17 @@
 		// 	}
 		// }
 	}
+}
+
+.authors::-webkit-scrollbar-track {
+	background-color: transparent;
+}
+
+.authors::-webkit-scrollbar {
+	height: 1rem;
+	background-color: transparent;
+}
+
+.authors::-webkit-scrollbar-thumb {
+	background-color: #555;
 }
