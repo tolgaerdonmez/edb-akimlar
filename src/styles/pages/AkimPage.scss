@@ -1,110 +1,110 @@
 @import "../screens";
 
 .akimPageContainer {
-	@include desktop {
-		height: 100vh;
+  @include desktop {
+    height: 100vh;
 
-		display: flex;
-		justify-content: center;
-		align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-		flex-direction: row;
+    flex-direction: row;
 
-		.sidebar,
-		.content {
-			height: 100%;
-		}
+    .sidebar,
+    .content {
+      height: 100%;
+    }
 
-		.sidebar {
-			display: flex;
-			justify-content: space-around;
+    .sidebar {
+      display: flex;
+      justify-content: space-around;
 
-			flex-direction: column;
+      flex-direction: column;
 
-			padding: 1.5rem 3rem;
+      padding: 1.5rem 3rem;
 
-			border-right: solid 0.3rem white;
-			div {
-				p {
-					font-size: 3rem;
-				}
-			}
-		}
-		.content {
-			flex-grow: 1;
+      border-right: solid 0.3rem white;
+      div {
+        p {
+          font-size: 3rem;
+        }
+      }
+    }
+    .content {
+      flex-grow: 1;
 
-			display: flex;
-			flex-direction: column;
-			align-items: flex-start;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
 
-			overflow-x: auto;
+      overflow-x: auto;
 
-			padding: 3rem;
+      padding: 3rem;
 
-			.info {
-				flex-grow: 1;
-				h1 {
-					font-size: 5rem;
-					padding-bottom: 2rem;
-				}
-				p {
-					font-size: 2.5rem;
-					margin-bottom: 2rem;
-					line-height: 1.618;
-				}
-			}
+      .info {
+        flex-grow: 1;
+        h1 {
+          font-size: 5rem;
+          padding-bottom: 2rem;
+        }
+        p {
+          font-size: 2.5rem;
+          margin-bottom: 2rem;
+          line-height: 1.618;
+        }
+      }
 
-			.horizontalList {
-				min-height: 30rem;
-			}
+      .horizontalList {
+        min-height: 30rem;
+      }
 
-			.books {
-				align-items: center;
+      .books {
+        align-items: center;
 
-				svg:hover {
-					transform: scale(1.5);
-				}
-				svg {
-					transition: all 150ms;
-					transform-origin: 50% 50%;
-				}
-			}
-		}
-	}
+        svg:hover {
+          transform: scale(1.5);
+        }
+        svg {
+          transition: all 150ms;
+          transform-origin: 50% 50%;
+        }
+      }
+    }
+  }
 }
 
 .horizontalList {
-	width: 100%;
-	padding: 2rem;
+  width: 100%;
+  padding: 2rem;
 
-	overflow-x: scroll;
+  overflow-x: scroll;
 
-	list-style: none;
+  list-style: none;
 
-	display: flex;
-	flex-direction: row;
-	align-items: flex-start;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
 
-	-webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
-	-moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
-	box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
 
-	border-radius: 0.5rem;
+  border-radius: 0.5rem;
 
-	li {
-		margin: 0 2rem;
-	}
+  li {
+    margin: 0 2rem;
+  }
 
-	&::-webkit-scrollbar-track {
-		background-color: transparent;
-	}
+  &::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
 
-	&::-webkit-scrollbar {
-		height: 1rem;
-		background-color: transparent;
-	}
+  &::-webkit-scrollbar {
+    height: 1rem;
+    background-color: transparent;
+  }
 
-	&::-webkit-scrollbar-thumb {
-		background-color: #555;
-	}
+  &::-webkit-scrollbar-thumb {
+    background-color: #555;
+  }
 }

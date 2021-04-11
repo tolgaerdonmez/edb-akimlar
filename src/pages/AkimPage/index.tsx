@@ -8,16 +8,16 @@ import { Content } from "./Content";
 import { Sidebar } from "./Sidebar";
 
 interface Params {
-	name: string;
+  name: string;
 }
 
 export function AkimPage(): ReactElement {
-	const { name } = useParams<Params>();
-	const currentAkim = akimlar.find(x => x.name.toLowerCase() === name) || akimlar[0];
-	return (
-		<div className="akimPageContainer">
-			<Sidebar currentAkim={currentAkim.name} />
-			<Content {...currentAkim} />
-		</div>
-	);
+  const { name } = useParams<Params>();
+  const currentAkim = akimlar.find((x) => x.name.toLowerCase() === name) || akimlar[0];
+  return (
+    <div className="akimPageContainer">
+      <Sidebar currentAkim={currentAkim.name} />
+      <Content {...currentAkim} />
+    </div>
+  );
 }

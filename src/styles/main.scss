@@ -3,28 +3,28 @@
 @import "backgrounds";
 
 html {
-	font-size: 67.5%;
+  font-size: 67.5%;
 }
 
 * {
-	margin: 0;
-	padding: 0;
-	font-family: "Raleway";
-	font-weight: 400;
-	color: white;
-	box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Raleway";
+  font-weight: 400;
+  color: white;
+  box-sizing: border-box;
 }
 
 body {
-	@include radiantBackground;
-	backdrop-filter: blur(15px);
+  @include radiantBackground;
+  backdrop-filter: blur(15px);
 }
 
 h1 {
-	font-size: 3rem;
-	font-family: "Abril Fatface";
+  font-size: 3rem;
+  font-family: "Abril Fatface";
 }
 
 h2 {
-	font-size: 1rem;
+  font-size: 1rem;
 }
