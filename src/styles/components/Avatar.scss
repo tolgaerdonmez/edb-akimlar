@@ -4,18 +4,35 @@
 	flex-direction: column;
 
 	img {
-		height: 20rem;
+		// height: 100%;
+		width: 100%;
+	}
+
+	div {
+		display: flex;
+		justify-content: center;
+		align-items: center;
 	}
 
 	.round {
 		width: 20rem;
-		object-fit: cover;
+		height: 20rem;
+		overflow: hidden;
+	}
+
+	.round {
+		img {
+			width: 100%;
+			object-fit: cover;
+			border-radius: 50%;
+		}
 		border-radius: 50%;
 
 		margin-bottom: 1rem;
 	}
 
 	.rect {
+		width: 20rem;
 		border-radius: 0;
 
 		margin-bottom: 1.5rem;
@@ -30,11 +47,14 @@
 .avatarSelectable {
 	padding: 1rem;
 	border-radius: 0.5rem;
-	transition: box-shadow 150ms;
+	overflow: hidden;
+	img {
+		transition: all 150ms;
+	}
 	&:hover {
 		cursor: pointer;
-		-webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
-		-moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
-		box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+		img {
+			transform: scale(1.3);
+		}
 	}
 }
