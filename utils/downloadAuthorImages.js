@@ -13,7 +13,7 @@ async function downloadImage(name, lang = "tr") {
 			const res = await Axios.get(Object.values(response.data.query.pages)[0].thumbnail.source, {
 				responseType: "stream",
 			});
-			const writer = createWriteStream(`./public/img/${name.replace(/\s/g, "")}.jpg`);
+			const writer = createWriteStream(`./public/img/authors/${name.replace(/\s/g, "")}.jpg`);
 			res.data.pipe(writer);
 			return true;
 		} catch {

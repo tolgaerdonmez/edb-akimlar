@@ -6,7 +6,7 @@
 				{ "name": "Stendhal", "books": ["Kırmızı ve Siyah", "Parma Manastırı"] },
 				{ "name": "Balzac", "books": ["Vadideki Zambak", "Eugenie Grandet", "Goriot Baba"] },
 				{ "name": "Gustave Flaubert", "books": ["Madam Bovary"] },
-				{ "name": "Charles Dickens", "books": ["Oliver Twist", "David Copperfield"] },
+				{ "name": "Charles Dickens", "books": ["Oliver Twist", "David Copperfield", "İki Şehrin Hikayesi"] },
 				{ "name": "Nikolay Gogol", "books": ["Ölü Canlar", "Müfettiş"] },
 				{ "name": "Fyodor Dostoyevski", "books": ["Suç ve Ceza", "Karamazof Kardeşler", "Budala Tolstoy"] },
 				{ "name": "Mark Twain", "books": ["Tom Sawyer'in Maceraları"] },
@@ -24,11 +24,11 @@
 			]
 		},
 		{
-			"name": "Klassizm",
+			"name": "Klasisizm",
 			"authors": [
 				{ "name": "Şinasi", "books": ["Şair Evlenmesi"] },
 				{ "name": "Pierre Corneille", "books": ["Le Cid", "Horace"] },
-				{ "name": "Jean Racine", "books": ["Andromaque", "İphigenie"] },
+				{ "name": "Jean Racine", "books": ["Andromaque", "İphigenie", "Bayazıt"] },
 				{
 					"name": "Molière",
 					"books": [
@@ -51,12 +51,12 @@
 		{
 			"name": "Romantizm",
 			"authors": [
-				{ "name": "Namık Kemal", "books": [] },
+				{ "name": "Namık Kemal", "books": ["İntibah", "Cezmi"] },
 				{ "name": "Ahmet Mithat", "books": [] },
 				{ "name": "Recaizade Mahmut Ekrem", "books": [] },
-				{ "name": "Abdülhak Hamit Tarhan", "books": [] },
+				{ "name": "Abdülhak Hamit Tarhan", "books": ["Tezer"] },
 				{ "name": "Johann Wolfgang von Goethe", "books": ["Faust", "Egmont", "Genç Werther'in Acıları"] },
-				{ "name": "Friedrich Schiller", "books": ["Haydutlar", "Wilhelm Tell"] },
+				{ "name": "Friedrich Schiller", "books": ["Haydutlar", "Wilhelm Tell", "Giyom Tel"] },
 				{ "name": "Montesquieu", "books": ["Kanunların Ruhu"] },
 				{ "name": "Jean-Jacques Rousseau", "books": ["Toplum Sözleşmesi", "İtiraflar", "Emile"] },
 				{
@@ -87,12 +87,12 @@
 			"name": "Naturalizm",
 			"authors": [
 				{ "name": "Selahattin Enis", "books": [] },
-				{ "name": "Nâbizâde Nazım", "books": [] },
-				{ "name": "Hüseyin Rahmi Gürpınar", "books": [] },
+				{ "name": "Nâbizâde Nazım", "books": ["Karabibik~Zehra"] },
+				{ "name": "Hüseyin Rahmi Gürpınar", "books": ["Şıpsevdi", "Mürebbiye/Şeytan İşi"] },
 				{ "name": "Goncourt Kardeşler", "books": [] },
 				{ "name": "Edmon ve Jules", "books": [] },
-				{ "name": "Emile Zola", "books": [] },
-				{ "name": "Alphonse Daudet", "books": [] },
+				{ "name": "Emile Zola", "books": ["Nana", "Germinal"] },
+				{ "name": "Alphonse Daudet", "books": ["Değirmenimden Mektuplar"] },
 				{ "name": "Guy de Maupassant", "books": [] },
 				{ "name": "Henrik Ibsen", "books": [] }
 			],
@@ -105,21 +105,21 @@
 				{ "name": "Thedore De Bonville", "books": [] },
 				{ "name": "Leconte de Lisle", "books": [] },
 				{ "name": "François Coppée", "books": [] },
-				{ "name": "Cenap Şahabettin", "books": [] },
+				{ "name": "Cenap Şahabettin", "books": ["Tiryaki Sözleri"] },
 				{ "name": "Tevfik Fikret", "books": [] },
-				{ "name": "Yahya Kemal Beyatlı", "books": [] }
+				{ "name": "Yahya Kemal Beyatlı", "books": ["Kendi Gök Kubbemiz", "Eski Şiirin Rüzgârıyle"] }
 			],
 			"content": []
 		},
 		{
 			"name": "Sembolizm",
 			"authors": [
-				{ "name": "Charles Baudelaire", "books": [] },
-				{ "name": "Stéphane Mallarmé", "books": [] },
-				{ "name": "Paul Verlaine", "books": [] },
-				{ "name": "Arthur Rimbaud", "books": [] },
+				{ "name": "Charles Baudelaire", "books": ["Kötülük Çiçekleri"] },
+				{ "name": "Stéphane Mallarmé", "books": ["Şiirler"] },
+				{ "name": "Paul Verlaine", "books": ["Zühal Şiirleri Çapkın Törenler Tatlı Şarkı Sözsüz Romanlar"] },
+				{ "name": "Arthur Rimbaud", "books": ["Bütün Şiirleri"] },
 				{ "name": "Paul Valéry", "books": [] },
-				{ "name": "Ahmet Haşim", "books": [] },
+				{ "name": "Ahmet Haşim", "books": ["Göl Saatleri", "Piyale"] },
 				{ "name": "Cenap Şahabettin", "books": [] }
 			],
 			"content": []
@@ -137,35 +137,35 @@
 			"name": "Ekspresyonizm",
 			"authors": [
 				{ "name": "Eugene O'Neill", "books": [] },
-				{ "name": "Franz Kafka", "books": [] },
+				{ "name": "Franz Kafka", "books": ["Dönüşüm", "Dava"] },
 				{ "name": "T. S. Eliot", "books": [] },
-				{ "name": "James Joyce", "books": [] }
+				{ "name": "James Joyce", "books": ["Ulysses", "Dubliners"] }
 			],
 			"content": []
 		},
 		{
 			"name": "Sürrealizm",
 			"authors": [
-				{ "name": "André Breton", "books": [] },
-				{ "name": "Paul Éluard", "books": [] },
-				{ "name": "Louis Aragon", "books": [] }
+				{ "name": "André Breton", "books": ["Sürrealist Manifestolar", "Nadja"] },
+				{ "name": "Paul Éluard", "books": ["Ozan ve Gölgesi"] },
+				{ "name": "Louis Aragon", "books": ["Elsa'nın Gözleri"] }
 			],
 			"content": []
 		},
 		{
 			"name": "Fütürizm",
 			"authors": [
-				{ "name": "Filippo Tommaso Marinetti", "books": [] },
-				{ "name": "Vladimir Mayakovski", "books": [] },
-				{ "name": "Nazım Hikmet", "books": [] }
+				{ "name": "Filippo Tommaso Marinetti", "books": ["Futurist Manifestolar Kitabı"] },
+				{ "name": "Vladimir Mayakovski", "books": ["Sizler Mutlu Olun Yeter", "Şiir Nasıl Yazılır?"] },
+				{ "name": "Nazım Hikmet", "books": ["835 Satır", "Henüz Vakit Varken Gülüm"] }
 			],
 			"content": []
 		},
 		{
 			"name": "Egzistanyalizm",
 			"authors": [
-				{ "name": "Jean-Paul Sartre", "books": [] },
-				{ "name": "Albert Camus", "books": [] },
+				{ "name": "Jean-Paul Sartre", "books": ["Bulantı", "Varlık ve Hiçlik", "Akıl Çağı"] },
+				{ "name": "Albert Camus", "books": ["Yabancı", "Başkaldıran İnsan"] },
 				{ "name": "Simone de Beauvoir", "books": [] },
 				{ "name": "André Malraux", "books": [] }
 			],
@@ -174,7 +174,7 @@
 		{
 			"name": "Dadaizm",
 			"authors": [
-				{ "name": "Tristan Tzara", "books": [] },
+				{ "name": "Tristan Tzara", "books": ["Dada Manifestoları ve Seçme Şiirler"] },
 				{ "name": "Francis Picabia", "books": [] }
 			],
 			"content": []
