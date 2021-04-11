@@ -4,7 +4,8 @@
 			"name": "Realizm",
 			"authors": [
 				{ "name": "Stendhal", "books": ["Kırmızı ve Siyah", "Parma Manastırı"] },
-				{ "name": "Balzac", "books": ["Vadideki Zambak", "Eugenie Grandet", "Goriot Baba Gustave Flaubert"] },
+				{ "name": "Balzac", "books": ["Vadideki Zambak", "Eugenie Grandet", "Goriot Baba"] },
+				{ "name": "Gustave Flaubert", "books": ["Madam Bovary"] },
 				{ "name": "Charles Dickens", "books": ["Oliver Twist", "David Copperfield"] },
 				{ "name": "Nikolay Gogol", "books": ["Ölü Canlar", "Müfettiş"] },
 				{ "name": "Fyodor Dostoyevski", "books": ["Suç ve Ceza", "Karamazof Kardeşler", "Budala Tolstoy"] },
@@ -12,7 +13,9 @@
 				{ "name": "Anton Çehov", "books": ["Vanya Dayı", "Vişne Bahçesi"] },
 				{ "name": "Ernest Hemingway", "books": ["Çanlar Kimin İçin Çalıyor?"] },
 				{ "name": "John Steinbeck", "books": ["Gazap Üzümleri"] },
-				{ "name": "Herman Melville", "books": ["Moby Dick"] }
+				{ "name": "Herman Melville", "books": ["Moby Dick"] },
+				{ "name": "Recaizade Mahmut Ekrem", "books": ["Araba Sevdası"] },
+				{ "name": "Samipaşazade Sezai", "books": ["Sergüzeşt"] }
 			],
 			"content": [
 				"Realizm akımını benimsemiş sanatçılar; toplumu ve insanı, bir bilim adamının bakış açısıyla gözlemlerler, kendi görüşlerini bu gözlemlere katmazlar, aynı zamanda doğrulanmış belgelere de başvururlar bu yüzden realizm akımının eserlerinde gerçek olduğu gibi yansıtılmıştır, bir fotoğrafçının çekmiş olduğu fotoğraf gibi herkese aynı gözükmüştür. İnsanlar yaşadığı ortamda anlatılmış, çevrenin kişilikleri üzerindeki etkisi ve önemi vurgulanmıştır, tabii ki bunlarda olağanüstü bir durum yoktur, olamaz. Bunları yaparken kullanılan betimlemelerin amacı olduğu gibi aktarmak olduğundan, süslü bir anlatım bulunmaz.",
@@ -20,16 +23,161 @@
 				"Anlatımda açık ve durulardır, yapıtlarının biçimini ve güzelliğini kusursuzlaştırmayı önemserler."
 			]
 		},
-		{ "name": "Klassizm", "authors": [], "content": [] },
-		{ "name": "Romantizm", "authors": [], "content": [] },
-		{ "name": "Naturalizm", "authors": [], "content": [] },
-		{ "name": "Parnasizm", "authors": [], "content": [] },
-		{ "name": "Sembolizm", "authors": [], "content": [] },
-		{ "name": "Empresyonizm", "authors": [], "content": [] },
-		{ "name": "Ekspresyonizm", "authors": [], "content": [] },
-		{ "name": "Sürrealizm", "authors": [], "content": [] },
-		{ "name": "Fütürizm", "authors": [], "content": [] },
-		{ "name": "Egzistanyalizm", "authors": [], "content": [] },
-		{ "name": "Dadaizm", "authors": [], "content": [] }
+		{
+			"name": "Klassizm",
+			"authors": [
+				{ "name": "Şinasi", "books": ["Şair Evlenmesi"] },
+				{ "name": "Pierre Corneille", "books": ["Le Cid", "Horace"] },
+				{ "name": "Jean Racine", "books": ["Andromaque", "İphigenie"] },
+				{
+					"name": "Molière",
+					"books": [
+						"Gülünç Kibarlar",
+						"Tartuffe",
+						"Zoraki Tabip",
+						"Cimri",
+						"Kibarlık Budalası",
+						"Scapin'in Dolaptan",
+						"Hastalık Hastası"
+					]
+				},
+				{ "name": "Jean de La Fontaine", "books": ["Fabllar"] },
+				{ "name": "René Descartes", "books": ["Yöntem Üzerine Nutuk"] },
+				{ "name": "François Fénelon", "books": ["Telemak"] },
+				{ "name": "Madame de La Fayette", "books": ["Prenses de Clives"] }
+			],
+			"content": []
+		},
+		{
+			"name": "Romantizm",
+			"authors": [
+				{ "name": "Namık Kemal", "books": [] },
+				{ "name": "Ahmet Mithat", "books": [] },
+				{ "name": "Recaizade Mahmut Ekrem", "books": [] },
+				{ "name": "Abdülhak Hamit Tarhan", "books": [] },
+				{ "name": "Johann Wolfgang von Goethe", "books": ["Faust", "Egmont", "Genç Werther'in Acıları"] },
+				{ "name": "Friedrich Schiller", "books": ["Haydutlar", "Wilhelm Tell"] },
+				{ "name": "Montesquieu", "books": ["Kanunların Ruhu"] },
+				{ "name": "Jean-Jacques Rousseau", "books": ["Toplum Sözleşmesi", "İtiraflar", "Emile"] },
+				{
+					"name": "Alphonse de Lamartine",
+					"books": ["Bir Meleğin Düşmesi", "Şairane Düşünceler", "Graziella", "Rapheal"]
+				},
+				{
+					"name": "Victor Hugo",
+					"books": [
+						"Akşam Şarkıları",
+						"Işıklar ve Gölgeler",
+						"Sonbahar Yapraklan",
+						"Sefiller",
+						"Nötre- Dame'ın Kamburu",
+						"Hernani",
+						"Kral Eğleniyor",
+						"Ruy Blas",
+						"Cromvvel"
+					]
+				},
+				{ "name": "Voltaire", "books": ["Henriade", "Candide", "Zadig"] },
+				{ "name": "Lord Byron", "books": ["Childe Harold'un Gezisi", "Kaabil", "Sardanapal"] },
+				{ "name": "Alexander Pushkin", "books": ["Kafkas Esir", "Çingeneler", "Yüzbaşının Kızı"] }
+			],
+			"content": []
+		},
+		{
+			"name": "Naturalizm",
+			"authors": [
+				{ "name": "Selahattin Enis", "books": [] },
+				{ "name": "Nâbizâde Nazım", "books": [] },
+				{ "name": "Hüseyin Rahmi Gürpınar", "books": [] },
+				{ "name": "Goncourt Kardeşler", "books": [] },
+				{ "name": "Edmon ve Jules", "books": [] },
+				{ "name": "Emile Zola", "books": [] },
+				{ "name": "Alphonse Daudet", "books": [] },
+				{ "name": "Guy de Maupassant", "books": [] },
+				{ "name": "Henrik Ibsen", "books": [] }
+			],
+			"content": []
+		},
+		{
+			"name": "Parnasizm",
+			"authors": [
+				{ "name": "Théophile Gautier", "books": [] },
+				{ "name": "Thedore De Bonville", "books": [] },
+				{ "name": "Leconte de Lisle", "books": [] },
+				{ "name": "François Coppée", "books": [] },
+				{ "name": "Cenap Şahabettin", "books": [] },
+				{ "name": "Tevfik Fikret", "books": [] },
+				{ "name": "Yahya Kemal Beyatlı", "books": [] }
+			],
+			"content": []
+		},
+		{
+			"name": "Sembolizm",
+			"authors": [
+				{ "name": "Charles Baudelaire", "books": [] },
+				{ "name": "Stéphane Mallarmé", "books": [] },
+				{ "name": "Paul Verlaine", "books": [] },
+				{ "name": "Arthur Rimbaud", "books": [] },
+				{ "name": "Paul Valéry", "books": [] },
+				{ "name": "Ahmet Haşim", "books": [] },
+				{ "name": "Cenap Şahabettin", "books": [] }
+			],
+			"content": []
+		},
+		{
+			"name": "Empresyonizm",
+			"authors": [
+				{ "name": "Rainer Maria Rilke", "books": [] },
+				{ "name": "Paul Verlaine", "books": [] },
+				{ "name": "Arthur Rimbaud", "books": [] }
+			],
+			"content": []
+		},
+		{
+			"name": "Ekspresyonizm",
+			"authors": [
+				{ "name": "Eugene O'Neill", "books": [] },
+				{ "name": "Franz Kafka", "books": [] },
+				{ "name": "T. S. Eliot", "books": [] },
+				{ "name": "James Joyce", "books": [] }
+			],
+			"content": []
+		},
+		{
+			"name": "Sürrealizm",
+			"authors": [
+				{ "name": "André Breton", "books": [] },
+				{ "name": "Paul Éluard", "books": [] },
+				{ "name": "Louis Aragon", "books": [] }
+			],
+			"content": []
+		},
+		{
+			"name": "Fütürizm",
+			"authors": [
+				{ "name": "Filippo Tommaso Marinetti", "books": [] },
+				{ "name": "Vladimir Mayakovski", "books": [] },
+				{ "name": "Nazım Hikmet", "books": [] }
+			],
+			"content": []
+		},
+		{
+			"name": "Egzistanyalizm",
+			"authors": [
+				{ "name": "Jean-Paul Sartre", "books": [] },
+				{ "name": "Albert Camus", "books": [] },
+				{ "name": "Simone de Beauvoir", "books": [] },
+				{ "name": "André Malraux", "books": [] }
+			],
+			"content": []
+		},
+		{
+			"name": "Dadaizm",
+			"authors": [
+				{ "name": "Tristan Tzara", "books": [] },
+				{ "name": "Francis Picabia", "books": [] }
+			],
+			"content": []
+		}
 	]
 }

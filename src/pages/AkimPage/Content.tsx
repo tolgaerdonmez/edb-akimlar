@@ -1,6 +1,7 @@
 import React, { ReactElement } from "react";
 import { Avatar } from "../../components/Avatar";
 import { Akim } from "../../typings/akim";
+import { getAuthorImagePath } from "../../utils/path";
 
 type Props = Akim;
 
@@ -16,7 +17,7 @@ export function Content({ name, content, authors }: Props): ReactElement {
 			<ul className="authors">
 				{authors.map(({ name }) => (
 					<li>
-						<Avatar title={name} src={`/img/${name?.replace(" ", "")}.jpg`} />
+						<Avatar title={name} src={`/img/${getAuthorImagePath(name)}.jpg`} />
 					</li>
 				))}
 			</ul>
