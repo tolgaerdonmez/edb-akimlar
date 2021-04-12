@@ -1,4 +1,3 @@
-import React, { ReactElement } from "react";
 import "../../styles/pages/AkimPage.scss";
 
 import { useParams } from "react-router-dom";
@@ -11,7 +10,7 @@ interface Params {
   name: string;
 }
 
-export function AkimPage(): ReactElement {
+export function AkimPage(): React.ReactElement {
   const { name } = useParams<Params>();
   const currentAkim = akimlar.find((x) => x.name.toLowerCase() === name) || akimlar[0];
   return (

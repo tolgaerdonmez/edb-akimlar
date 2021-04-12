@@ -1,6 +1,7 @@
-import { FC, SVGAttributes } from "react";
-
-export const ArrowBack: FC<SVGAttributes<SVGSVGElement> & { size?: number }> = ({ size = 24, ...props }) => (
+export const ArrowBack: React.FC<React.SVGAttributes<SVGSVGElement> & { size?: number }> = ({
+  size = 24,
+  ...props
+}) => (
   // <svg
   //   xmlns="http://www.w3.org/2000/svg"
   //   viewBox="0 0 512 512"

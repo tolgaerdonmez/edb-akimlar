@@ -1,7 +1,5 @@
 import "../styles/pages/home.scss";
 import { Button } from "../components/Button";
-import React from "react";
-import { Link } from "react-router-dom";
 
 export function Home() {
   return (

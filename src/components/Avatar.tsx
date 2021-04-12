@@ -1,4 +1,3 @@
-import React, { HTMLProps, ReactElement } from "react";
 import "../styles/components/Avatar.scss";
 
 interface IProps {
@@ -6,9 +5,9 @@ interface IProps {
   shape?: "round" | "rect";
 }
 
-type Props = HTMLProps<HTMLImageElement> & IProps;
+type Props = React.HTMLProps<HTMLImageElement> & IProps;
 
-export function Avatar({ src, title, alt, onClick, shape }: Props): ReactElement {
+export function Avatar({ src, title, alt, onClick, shape }: Props): React.ReactElement {
   return (
     <div className={`avatarContainer ${onClick ? "avatarSelectable" : ""}`} onClick={onClick}>
       <div className={shape || "round"}>
