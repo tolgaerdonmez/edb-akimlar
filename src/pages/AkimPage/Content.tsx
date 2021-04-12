@@ -1,4 +1,4 @@
-import React, { ReactElement, useEffect, useState } from "react";
+import { useEffect, useState } from "preact/hooks";
 import { Avatar } from "../../components/Avatar";
 import { ArrowBack } from "../../components/icons/ArrowBack";
 import { Akim } from "../../typings/akim";
@@ -6,7 +6,7 @@ import { getAuthorImagePath } from "../../utils/path";
 
 type Props = Akim;
 
-export function Content({ name, content, authors }: Props): ReactElement {
+export function Content({ name, content, authors }: Props): React.ReactElement {
   const [selectedAuthor, setSelectedAuthor] = useState(-1);
 
   useEffect(() => {
