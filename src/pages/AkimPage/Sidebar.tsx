@@ -5,9 +5,10 @@ import { akimlar } from "../../data";
 
 interface Props {
   currentAkim: string;
+  selectCb: any;
 }
 
-export function Sidebar({ currentAkim }: Props): ReactElement {
+export function Sidebar({ currentAkim, selectCb }: Props): ReactElement {
   return (
     <div className="sidebar">
       {akimlar.map(({ name }) => (
@@ -17,7 +18,8 @@ export function Sidebar({ currentAkim }: Props): ReactElement {
             <Button
               className={`navigateButton 
 								${currentAkim === name ? "navigateButtonSelected" : ""}`}
-              to={`/akimlar/${name.toLowerCase()}`}
+              // to={`/akimlar/${name.toLowerCase()}`}
+              onClick={() => selectCb(name)}
             >
               {name}
             </Button>

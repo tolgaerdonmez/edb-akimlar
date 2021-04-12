@@ -1,4 +1,4 @@
-import React, { ReactElement } from "react";
+import React, { ReactElement, useState } from "react";
 import "../../styles/pages/AkimPage.scss";
 
 import { useParams } from "react-router-dom";
@@ -12,11 +12,12 @@ interface Params {
 }
 
 export function AkimPage(): ReactElement {
-  const { name } = useParams<Params>();
+  // const { name } = useParams<Params>();
+  const [name, setName] = useState("realizm");
   const currentAkim = akimlar.find((x) => x.name.toLowerCase() === name) || akimlar[0];
   return (
     <div className="akimPageContainer">
-      <Sidebar currentAkim={currentAkim.name} />
+      <Sidebar currentAkim={currentAkim.name} selectCb={(name: string) => setName(name.toLowerCase())} />
       <Content {...currentAkim} />
     </div>
   );

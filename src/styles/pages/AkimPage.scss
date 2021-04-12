@@ -43,6 +43,8 @@
 
       .info {
         flex-grow: 1;
+        // overflow-y: scroll;
+
         h1 {
           font-size: 5rem;
           padding-bottom: 2rem;
@@ -55,7 +57,7 @@
       }
 
       .horizontalList {
-        min-height: 30rem;
+        min-height: 5vh;
       }
 
       .books {
