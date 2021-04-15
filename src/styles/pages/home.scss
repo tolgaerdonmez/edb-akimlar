@@ -1,25 +1,28 @@
 @import "../screens";
 
 .heroContainer {
-  // background-color: #260104;
-  // background-color: #f26a1b;
-  @include desktop {
-    height: 100vh;
+  height: 100vh;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-    flex-direction: column;
-  }
+  flex-direction: column;
 
   .heroHeader {
     font-size: 20rem;
-    // font-family: "Train One";
-    margin: 0;
   }
 
   .heroTopHeader {
     font-size: 3rem;
+  }
+
+  @include mobile {
+    .heroHeader {
+      font-size: 8.5rem;
+    }
+    .heroTopHeader {
+      font-size: 2.5rem;
+    }
   }
 }

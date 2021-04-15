@@ -35,10 +35,11 @@ export function Content({ name, content, authors }: Props): React.ReactElement {
         </ul>
       ) : (
         <ul className="books horizontalList">
-          <li>
+          <li id="booksBack">
+            <p>{authors[selectedAuthor].name}</p>
             <ArrowBack fill="white" size={50} onClick={() => setSelectedAuthor(-1)} />
           </li>
-          <li>
+          <li id="authorAvatar">
             <Avatar
               title={authors[selectedAuthor].name}
               src={`/img/authors/${getAuthorImagePath(authors[selectedAuthor].name)}.jpg`}

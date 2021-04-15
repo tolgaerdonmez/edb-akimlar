@@ -1,10 +1,14 @@
+@import "../screens";
+
+$mobileSize: 14rem;
+$avatarSize: 18rem;
+
 .avatarContainer {
   display: flex;
   align-items: center;
   flex-direction: column;
 
   img {
-    // height: 100%;
     width: 100%;
   }
 
@@ -14,33 +18,43 @@
     align-items: center;
   }
 
-  .round {
-    width: 20rem;
-    height: 20rem;
-    overflow: hidden;
-  }
-
-  .round {
-    img {
-      width: 100%;
-      object-fit: cover;
-      border-radius: 50%;
-    }
-    border-radius: 50%;
-
-    margin-bottom: 1rem;
-  }
-
-  .rect {
-    width: 20rem;
-    border-radius: 0;
-
-    margin-bottom: 1.5rem;
-  }
-
   p {
-    font-size: 2.5rem;
+    font-size: $avatarSize / 8.5;
     text-align: center;
+  }
+}
+
+.round div {
+  width: $avatarSize;
+  height: $avatarSize;
+  overflow: hidden;
+  img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  border-radius: 50%;
+
+  margin-bottom: 1rem;
+}
+
+.rect div {
+  width: $avatarSize;
+  border-radius: 0;
+
+  margin-bottom: 1.5rem;
+}
+
+@include mobile {
+  p {
+    font-size: $mobileSize / 8.5;
+  }
+  .round div {
+    width: $mobileSize;
+    height: $mobileSize;
+  }
+  .rect div {
+    width: $mobileSize;
   }
 }
 
