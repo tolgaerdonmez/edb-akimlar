@@ -44,6 +44,9 @@
     .books {
       align-items: center;
 
+      #booksBack > p {
+        display: none;
+      }
       #authorName {
         display: none;
       }

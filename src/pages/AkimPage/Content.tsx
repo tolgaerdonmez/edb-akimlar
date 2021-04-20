@@ -2,7 +2,7 @@ import { useEffect, useState } from "preact/hooks";
 import { Avatar } from "../../components/Avatar";
 import { ArrowBack } from "../../components/icons/ArrowBack";
 import { Akim } from "../../typings/akim";
-import { getAuthorImagePath } from "../../utils/path";
+import { getFilenameFromName } from "../../utils/path";
 
 type Props = Akim;
 
@@ -28,7 +28,7 @@ export function Content({ name, content, authors }: Props): React.ReactElement {
               <Avatar
                 onClick={() => setSelectedAuthor(i)}
                 title={name}
-                src={`/img/authors/${getAuthorImagePath(name)}.jpg`}
+                src={`/img/authors/${getFilenameFromName(name)}.jpg`}
               />
             </li>
           ))}
@@ -42,12 +42,17 @@ export function Content({ name, content, authors }: Props): React.ReactElement {
           <li id="authorAvatar">
             <Avatar
               title={authors[selectedAuthor].name}
-              src={`/img/authors/${getAuthorImagePath(authors[selectedAuthor].name)}.jpg`}
+              src={`/img/authors/${getFilenameFromName(authors[selectedAuthor].name)}.jpg`}
             />
           </li>
           {authors[selectedAuthor].books.map((book) => (
             <li>
-              <Avatar src={`/img/books/cover.jpg`} title={book} shape="rect" />
+              <Avatar
+                src={`/img/books/${getFilenameFromName(book)}.jpg`}
+                fallbackSrc="/img/books/empty.jpg"
+                title={book}
+                shape="rect"
+              />
             </li>
           ))}
         </ul>
