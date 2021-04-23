@@ -1,0 +1,36 @@
+# Romantizm
+
+> Romantizm; “on sekizinci yüzyıl sonunda başlayan, klasik edebiyatın yerine geçen duygu ve hayale fazla yer veren edebiyat çığırıdır” (Karaalioğlu, 1980, s. 59)
+
+> Romantizmin on dokuzuncu yüzyılın başından ortalarına kadara yarım asırlık dönemde hemen hemen bütün Avrupa’da hâkim bir sanat akımı olmuştur. Ancak romantizmin İngiltere’deki başlangıcını on sekizinci yüzyılın başına, Almanya’dakini ise aynı yüzyılın ortalarına kadar götürmek mümkündür. Romantizm Fransa ve diğer Avrupa ülkelerine sıçrayarak on dokuzuncu yüzyılın başından itibaren sanat ve edebiyat dünyasına hâkim olmuştur (Çetişli, 2010, s. 67).
+
+<!-- Çetişli, İ. (2010). Batı edebiyatında edebi akımlar. Ankara: Akçağ. -->
+
+Bu akımda sanatçılar, klasisizm'deki aklın ve sağduyunun yerine; duygu, coşku ve hayali koymuştur.
+
+Klasisizm'deki insan doğasının yerine dış dünyayı renkli, göz alıcı ve abartı bir şekilde anlatmışlardır.
+
+Sanatçılar, kuralcılıktan kaçınmışlardır. Kapalı ve süslü bir üslup kullanmışlar, şairane anlatımı benimsemişlerdir.
+
+> Klasisizmden sonra romantizm doğmuştur. “Klasik akımın ‘Aydınlamacılar’ ve ‘Fransız Devrimi’nden sonra; **a)** toplumsal değişimler, **b)** Alman yazınının etkisi **c)** Olumsuz eleştiriler ve bıkkınlık nedeniyle yerini romantizm aldı” (Alkan, 2005, s. 32)
+
+<!-- Alkan, E. (2006). Gerçekçilik. İstanbul: Varlık. -->
+
+> Tanzimat dönemi şair ve yazarlarının romantizmden etkilendikleri görülür. Batı edebiyatındaki Klasisizm ve Romantizm çatışması bizim edebiyatımızda da Tanzimat sanatçılarının divan edebiyatına karşı çatışmasına benzetilebilir.
+
+Konuların bazıları tarihten, bazıları ise günlük yaşamdan alınmıştır.
+
+Hristiyanlık da mucizeleriyle birlikte tekrar ele alınmıştır.
+
+Sanatçılar eserleri yazarken kendilerini uzak tutmamışlar, sanatlarını toplumu yönlendiren bir araç olarak görmüşlerdir.
+"Toplum için sanat" anlayışını benimsemişlerdir.
+
+Mükemmeli değil, sıradanı anlatmışlardır; eserlerinde her kesimden insan bulunur.
+
+İnsanları ve olayları işlerken, iyi-kötü, güzel-çirkin gibi tezatlıklardan yararlanılmış, insanların ruh dünyasını soyut olarak ele almak yerine, yaşadıkları toplumsal çevre ile birlikte ele almışlardır.
+
+Rastlantılara fazlasıyla yer verilmiştir.
+
+Genellikle halkın kullandığı dil kullanılmış, süslü ve sanatlı anlatıma yer verilmiştir.
+
+Doğa manzaralarının betimlemeleri eserlerde önemli bir yer tutar. Buna kendi edebiyatımızdan örnek olarak Araba Sevdası'ndaki Çamlıca güzellemesini söyleyebiliriz.
