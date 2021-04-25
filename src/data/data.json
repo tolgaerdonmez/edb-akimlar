@@ -232,21 +232,29 @@
       "content": []
     },
     {
-      "name": "Empresyonizm",
+      "name": "Ekspresyonizm",
       "authors": [
-        { "name": "Rainer Maria Rilke", "books": [] },
-        { "name": "Paul Verlaine", "books": [] },
-        { "name": "Arthur Rimbaud", "books": [] }
+        { "name": "Franz Kafka", "books": ["Dönüşüm", "Dava", "Ceza Sömürgesi", "Şato", "Amerika"] },
+        {
+          "name": "Eugene O'Neill",
+          "books": ["The Emperor Jones", "The Hairy Ape", "All God's Chillun Got Wings", "The Great God Brown"]
+        },
+        { "name": "August Strindberg", "books": ["To Damascus", "The Dance of Death", "The Dream Play"] },
+        { "name": "Fritz von Unruh", "books": ["Offiziere", "Ein Geschlecht", "Platz"] },
+        { "name": "Ernst Toller", "books": ["Masses and Man", "Brokenbow", "Hoppla! Such Is Life!", "Pastor Hall "] },
+        { "name": "Georg Kaiser", "books": ["Von morgens bis mitternachts", "Der Silbersee"] },
+        { "name": "James Joyce", "books": ["Ulysses", "Dubliners"] },
+        { "name": "Reinhard Johannes Sorge", "books": ["Der Bettler"] },
+        { "name": "T. S. Eliot", "books": ["Çorak Ülke"] }
       ],
       "content": []
     },
     {
-      "name": "Ekspresyonizm",
+      "name": "Empresyonizm",
       "authors": [
-        { "name": "Eugene O'Neill", "books": [] },
-        { "name": "Franz Kafka", "books": ["Dönüşüm", "Dava"] },
-        { "name": "T. S. Eliot", "books": [] },
-        { "name": "James Joyce", "books": ["Ulysses", "Dubliners"] }
+        { "name": "Rainer Maria Rilke", "books": ["Duino Ağıtları"] },
+        { "name": "Paul Verlaine", "books": ["Geçmiş Ola"] },
+        { "name": "Arthur Rimbaud", "books": ["Ofelya"] }
       ],
       "content": []
     },

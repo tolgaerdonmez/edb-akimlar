@@ -1,0 +1,27 @@
+# Sürrealizm
+
+Fransız şair Andre Breton tarafından kurulmuştur.
+
+> Gerek söz gerek yazı gerek başka biçim ile düşüncenin gerçek çalışmasını anlatan, katışıksız ruhsal bir otomatizmadır. Akıl ve mantığın bütün kontrolünden, bütün estetik ve ahlaksal kaygıdan kurtulmuş olan düşüncenin anlatımıdır. Akıl ve mantığın bütün kontrolünden, bütün estetik ve ahlaksal kaygıdan kurtulmuş olan düşüncenin anlatımıdır. (Andre Breton’dan aktaran Karaalioğlu, 1980, s. 273)
+
+<!-- Karaalioğlu, S. (1980). Edebiyat akımları. İstanbul: İnkılâp ve Aka. -->
+
+Fransız filozof Henry Bergson'un "sezgicilik" adındaki düşünce akımından etkilenmiştir. Bergson ruhun akıldan üstünlüğünü savunur ve gerçekleri ruhsal sezgilerle açıklar.
+
+> “Arı fikri, toplumsal ve ahlakça her türlü ön düşünce etkisinden kurtularak anlatma amacını güden sanat akımıdır” (Karalioğlu, 1980, s. 273)
+
+<!-- Karaalioğlu, S. (1980). Edebiyat akımları. İstanbul: İnkılâp ve Aka. -->
+
+Sigmund Freud'un "psikanaliz" düşüncesi Sürrealizm'i etkileyen bir diğer kaynaktır. Freud insanı bilinçaltı ile açıklar, ona göre insanın gerçek eğilimi ve istekleri toplumsal yasalar, ahlak kuralları ve dinsel baskılar tarafından engellenmiştir ve sarhoşluk, rüya, sayıklama gibi durumlarda insanın bilinçaltı aklın kontrolünden çıkarak bilinçüstüne çıkar.
+
+Sürrealistler, düşüncenin gerçek etkinliğini ortaya çıkarmak için hipnotizma seansları düzenlemişlerdir, elde ettikleri verileri sanatlarına aktarmışlardır. Onlar, gerçek sanat yapıtlarının, sanatçılarca akıl ve iradenin denetimi dışındayken oluşturulabileceğini savunmuşlardır.
+
+> 1924 yılında kurulan gerçeküstücülük, “düşüncenin gerçek işlevini sözlü ya da başka bir biçimde ifade etmek üzere seçilen katıksız ruhsal otomatizm. Düşüncenin her türlü ahlaksal ya da estetik kaygıdan uzak, aklın denetimi olmaksızın ortaya konması” (Berk, 2005, s. 12)
+
+<!-- Berk, İ. (2004). Gerçeküstücülük. İstanbul: Varlık. -->
+
+Dil ve üslupta anlaşılır olmak istemediler, herkesin birkaç sözcük ya da cümle ekleyerek oluşturduğu "otomatik yazı" yöntemini benimsediler.
+
+Noktalama işaretlerine karşı çıktılar, bu da anlaşılır olmama isteklerini kanıtlayan unsurlardandır.
+
+Türk edebiyatında Birinci Yeniciler (Garipçiler) ve İkinci Yenicilerin bazı sanatçıları sürrealizmden etkilendi.
