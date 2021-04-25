@@ -3,11 +3,14 @@ import { Avatar } from "../../components/Avatar";
 import { ArrowBack } from "../../components/icons/ArrowBack";
 import { Akim } from "../../typings/akim";
 import { getFilenameFromName } from "../../utils/path";
+import { useArticles } from "../../md";
 
 type Props = Akim;
 
-export function Content({ name, content, authors }: Props): React.ReactElement {
+export function Content({ name, authors }: Props): React.ReactElement {
   const [selectedAuthor, setSelectedAuthor] = useState(-1);
+
+  const Article = useArticles(name);
 
   useEffect(() => {
     setSelectedAuthor(-1);
@@ -16,10 +19,7 @@ export function Content({ name, content, authors }: Props): React.ReactElement {
   return (
     <div className="content">
       <div className="info">
-        <h1>{name}</h1>
-        {content.map((c) => (
-          <p>{c}</p>
-        ))}
+        <Article />
       </div>
       {selectedAuthor < 0 ? (
         <ul className="authors horizontalList">

@@ -11,12 +11,15 @@
     "react-router-dom": "^5.2.0"
   },
   "devDependencies": {
+    "@mdx-js/mdx": "^1.6.22",
+    "@mdx-js/preact": "^1.6.22",
     "@preact/preset-vite": "2.0.1",
     "@types/react": "^17.0.3",
     "@types/react-router-dom": "^5.1.7",
     "axios": "^0.21.1",
     "sass": "^1.32.8",
     "typescript": "^4.1.2",
-    "vite": "^2.1.5"
+    "vite": "^2.1.5",
+    "vite-plugin-mdx": "^3.5.2"
   }
 }
