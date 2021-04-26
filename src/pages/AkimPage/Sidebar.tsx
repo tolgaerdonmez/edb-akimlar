@@ -8,6 +8,11 @@ interface Props {
 export function Sidebar({ currentAkim }: Props): React.ReactElement {
   return (
     <div className="sidebar">
+      <div>
+        <Button className="navigateButton" to="/">
+          Ana Sayfa
+        </Button>
+      </div>
       {akimlar.map(({ name }, i) => (
         <div key={i}>
           <Button

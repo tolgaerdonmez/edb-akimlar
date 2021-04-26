@@ -1,9 +1,10 @@
-import { useEffect, useState } from "preact/hooks";
+import { useEffect, useRef, useState } from "preact/hooks";
 import { Avatar } from "../../components/Avatar";
 import { ArrowBack } from "../../components/icons/ArrowBack";
 import { Akim } from "../../typings/akim";
 import { getFilenameFromName } from "../../utils/path";
 import { loadArticle } from "../../md";
+import React from "react";
 
 type Props = Akim;
 
@@ -22,7 +23,7 @@ export function Content({ name, authors }: Props): React.ReactElement {
         <Article />
       </div>
       {selectedAuthor < 0 ? (
-        <ul className="authors horizontalList">
+        <ul className="authors horizontalList" key={"authors" + name}>
           {authors.map(({ name }, i) => (
             <li key={name + i.toString()}>
               <Avatar
@@ -34,7 +35,7 @@ export function Content({ name, authors }: Props): React.ReactElement {
           ))}
         </ul>
       ) : (
-        <ul className="books horizontalList">
+        <ul className="books horizontalList" key={"books" + authors[selectedAuthor].name}>
           <li id="booksBack">
             <p>{authors[selectedAuthor].name}</p>
             <ArrowBack fill="white" size={50} onClick={() => setSelectedAuthor(-1)} />
