@@ -33,7 +33,7 @@
         {
           "name": "Refik Halit Karay",
           "books": [
-            "İstanbul'un İçyüzü",
+            "İstanbul'un Bir Yüzü",
             "Yezidin Kızı",
             "Çete",
             "Sürgün",
@@ -83,14 +83,9 @@
         { "name": "Nikolay Gogol", "books": ["Ölü Canlar", "Müfettiş"] },
         { "name": "Gustave Flaubert", "books": ["Madam Bovary"] },
         { "name": "Mark Twain", "books": ["Tom Sawyer'in Maceraları"] },
-        { "name": "Ernest Hemingway", "books": ["Çanlar Kimin İçin Çalıyor?"] },
+        { "name": "Ernest Hemingway", "books": ["Çanlar Kimin İçin Çalıyor"] },
         { "name": "John Steinbeck", "books": ["Gazap Üzümleri"] },
         { "name": "Herman Melville", "books": ["Moby Dick"] }
-      ],
-      "content": [
-        "Realizm akımını benimsemiş sanatçılar; toplumu ve insanı, bir bilim adamının bakış açısıyla gözlemlerler, kendi görüşlerini bu gözlemlere katmazlar, aynı zamanda doğrulanmış belgelere de başvururlar bu yüzden realizm akımının eserlerinde gerçek olduğu gibi yansıtılmıştır, bir fotoğrafçının çekmiş olduğu fotoğraf gibi herkese aynı gözükmüştür. İnsanlar yaşadığı ortamda anlatılmış, çevrenin kişilikleri üzerindeki etkisi ve önemi vurgulanmıştır, tabii ki bunlarda olağanüstü bir durum yoktur, olamaz. Bunları yaparken kullanılan betimlemelerin amacı olduğu gibi aktarmak olduğundan, süslü bir anlatım bulunmaz.",
-        "Realizmde sanatçıların benimsedikleri ilke “sanat için sanat” tır. Amaçları sanat yapmaktır.",
-        "Anlatımda açık ve durulardır, yapıtlarının biçimini ve güzelliğini kusursuzlaştırmayı önemserler."
       ]
     },
     {
@@ -112,11 +107,10 @@
           ]
         },
         { "name": "Jean de La Fontaine", "books": ["Fabllar"] },
-        { "name": "René Descartes", "books": ["Yöntem Üzerine Nutuk"] },
+        { "name": "René Descartes", "books": ["Usul Hakkında Nutuk"] },
         { "name": "François Fénelon", "books": ["Telemak"] },
         { "name": "Madame de La Fayette", "books": ["Prenses de Clives"] }
-      ],
-      "content": []
+      ]
     },
     {
       "name": "Romantizm",
@@ -126,7 +120,7 @@
           "name": "Ahmet Mithat",
           "books": ["Çengi", "Henüz On Yedi Yaşında", "Hasan Mellah", "Hüseyin Fellah", "Süleyman Musli"]
         },
-        { "name": "Recaizade Mahmut Ekrem", "books": ["Araba Sevdası", "Saime", "Şemsa"] },
+        { "name": "Recaizade Mahmut Ekrem", "books": ["Araba Sevdası", "Saime"] },
         { "name": "Abdülhak Hamit Tarhan", "books": ["Tezer"] },
         { "name": "Johann Wolfgang von Goethe", "books": ["Faust", "Egmont", "Genç Werther'in Acıları"] },
         { "name": "Friedrich Schiller", "books": ["Haydutlar", "Wilhelm Tell", "Giyom Tel"] },
@@ -134,27 +128,16 @@
         { "name": "Jean-Jacques Rousseau", "books": ["Toplum Sözleşmesi", "İtiraflar", "Emile"] },
         {
           "name": "Alphonse de Lamartine",
-          "books": ["Bir Meleğin Düşmesi", "Şairane Düşünceler", "Graziella", "Rapheal"]
+          "books": ["Graziella", "Rapheal", "Bir Meleğin Düşmesi", "Şairane Düşünceler"]
         },
         {
           "name": "Victor Hugo",
-          "books": [
-            "Akşam Şarkıları",
-            "Işıklar ve Gölgeler",
-            "Sonbahar Yapraklan",
-            "Sefiller",
-            "Nötre- Dame'ın Kamburu",
-            "Hernani",
-            "Kral Eğleniyor",
-            "Ruy Blas",
-            "Cromvvel"
-          ]
+          "books": ["Sefiller", "Nötre- Dame'ın Kamburu", "Hernani", "Kral Eğleniyor", "Ruy Blas", "Cromvvel"]
         },
         { "name": "Voltaire", "books": ["Henriade", "Candide", "Zadig"] },
         { "name": "Lord Byron", "books": ["Childe Harold'un Gezisi", "Kaabil", "Sardanapal"] },
-        { "name": "Alexander Pushkin", "books": ["Kafkas Esir", "Çingeneler", "Yüzbaşının Kızı"] }
-      ],
-      "content": []
+        { "name": "Alexander Pushkin", "books": ["Çingeneler", "Yüzbaşının Kızı"] }
+      ]
     },
     {
       "name": "Naturalizm",
@@ -188,13 +171,19 @@
           "books": ["Değirmenimden Mektuplar", "Pazartesi Hikayeleri", "Trasconlu Tartarin", "Jack"]
         },
         { "name": "Guy de Maupassant", "books": ["Tombalak", "Ay Işığı", "Bir Hayat", "Güzel Dost", "Kalbimiz"] }
-      ],
-      "content": []
+      ]
     },
     {
       "name": "Parnasizm",
       "authors": [
         { "name": "Yahya Kemal Beyatlı", "books": ["Kendi Gök Kubbemiz", "Eski Şiirin Rüzgârıyle"] },
+        {
+          "name": "Thedore De Bonville",
+          "books": ["Petit Traité de poésie", "Les Odes funambulesques", "Les Cariatides"]
+        },
+        { "name": "Sully Prudhomme", "books": ["La Justice", "Le Bonheur"] },
+        { "name": "François Coppée", "books": ["Kutsal Eşya Kutusu", "Modern Şiirler", "Sürgün Kadın"] },
+        { "name": "Jose Maria de Heredia", "books": ["Ganimetier"] },
         {
           "name": "Théophile Gautier",
           "books": [
@@ -207,29 +196,19 @@
             "Kızböceği",
             "Yatsıdan Sonra"
           ]
-        },
-        {
-          "name": "Thedore De Bonville",
-          "books": ["Les Cariatides", "Petit Traité de poésie", "Les Odes funambulesques"]
-        },
-        { "name": "Sully Prudhomme", "books": ["La Justice", "Le Bonheur"] },
-        { "name": "Jose Maria de Heredia", "books": ["Ganimetier"] },
-        { "name": "François Coppée", "books": ["Kutsal Eşya Kutusu", "Modern Şiirler", "Sürgün Kadın"] }
-      ],
-      "content": []
+        }
+      ]
     },
     {
       "name": "Sembolizm",
       "authors": [
+        { "name": "Ahmet Haşim", "books": ["Göl Saatleri", "Piyale"] },
         { "name": "Charles Baudelaire", "books": ["Kötülük Çiçekleri"] },
         { "name": "Stéphane Mallarmé", "books": ["Şiirler"] },
         { "name": "Paul Verlaine", "books": ["Zühal Şiirleri Çapkın Törenler Tatlı Şarkı Sözsüz Romanlar"] },
         { "name": "Arthur Rimbaud", "books": ["Bütün Şiirleri"] },
-        { "name": "Paul Valéry", "books": [] },
-        { "name": "Ahmet Haşim", "books": ["Göl Saatleri", "Piyale"] },
-        { "name": "Cenap Şahabettin", "books": [] }
-      ],
-      "content": []
+        { "name": "Paul Valéry", "books": [] }
+      ]
     },
     {
       "name": "Ekspresyonizm",
@@ -239,15 +218,14 @@
           "name": "Eugene O'Neill",
           "books": ["The Emperor Jones", "The Hairy Ape", "All God's Chillun Got Wings", "The Great God Brown"]
         },
-        { "name": "August Strindberg", "books": ["To Damascus", "The Dance of Death", "The Dream Play"] },
+        { "name": "August Strindberg", "books": ["To Damascus", "The Dance of Death", "A Dream Play"] },
         { "name": "Fritz von Unruh", "books": ["Offiziere", "Ein Geschlecht", "Platz"] },
-        { "name": "Ernst Toller", "books": ["Masses and Man", "Brokenbow", "Hoppla! Such Is Life!", "Pastor Hall "] },
+        { "name": "Ernst Toller", "books": ["Masses and Man", "Brokenbrow", "Hoppla! Such Is Life!", "Pastor Hall "] },
         { "name": "Georg Kaiser", "books": ["Von morgens bis mitternachts", "Der Silbersee"] },
         { "name": "James Joyce", "books": ["Ulysses", "Dubliners"] },
         { "name": "Reinhard Johannes Sorge", "books": ["Der Bettler"] },
         { "name": "T. S. Eliot", "books": ["Çorak Ülke"] }
-      ],
-      "content": []
+      ]
     },
     {
       "name": "Empresyonizm",
@@ -255,8 +233,7 @@
         { "name": "Rainer Maria Rilke", "books": ["Duino Ağıtları"] },
         { "name": "Paul Verlaine", "books": ["Geçmiş Ola"] },
         { "name": "Arthur Rimbaud", "books": ["Ofelya"] }
-      ],
-      "content": []
+      ]
     },
     {
       "name": "Sürrealizm",
@@ -264,8 +241,7 @@
         { "name": "André Breton", "books": ["Sürrealist Manifestolar", "Nadja"] },
         { "name": "Paul Éluard", "books": ["Ozan ve Gölgesi"] },
         { "name": "Louis Aragon", "books": ["Elsa'nın Gözleri"] }
-      ],
-      "content": []
+      ]
     },
     {
       "name": "Fütürizm",
@@ -273,8 +249,7 @@
         { "name": "Filippo Tommaso Marinetti", "books": ["Futurist Manifestolar Kitabı"] },
         { "name": "Vladimir Mayakovski", "books": ["Sizler Mutlu Olun Yeter", "Şiir Nasıl Yazılır?"] },
         { "name": "Nazım Hikmet", "books": ["835 Satır", "Henüz Vakit Varken Gülüm"] }
-      ],
-      "content": []
+      ]
     },
     {
       "name": "Egzistanyalizm",
@@ -282,17 +257,15 @@
         { "name": "Jean-Paul Sartre", "books": ["Bulantı", "Varlık ve Hiçlik", "Akıl Çağı"] },
         { "name": "Albert Camus", "books": ["Yabancı", "Başkaldıran İnsan"] },
         { "name": "Simone de Beauvoir", "books": [] },
-        { "name": "André Malraux", "books": [] }
-      ],
-      "content": []
+        { "name": "André Malraux", "books": ["İnsan Yazgısı", "Umut", "Altenburg'un Ceviz Ağaçları"] }
+      ]
     },
     {
       "name": "Dadaizm",
       "authors": [
         { "name": "Tristan Tzara", "books": ["Dada Manifestoları ve Seçme Şiirler"] },
         { "name": "Francis Picabia", "books": [] }
-      ],
-      "content": []
+      ]
     }
   ]
 }

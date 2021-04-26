@@ -8,6 +8,8 @@ $avatarSize: 18rem;
   align-items: center;
   flex-direction: column;
 
+  padding: 1rem;
+
   img {
     width: 100%;
   }
@@ -72,7 +74,6 @@ $avatarSize: 18rem;
 }
 
 .avatarSelectable {
-  padding: 1rem;
   border-radius: 0.5rem;
   overflow: hidden;
   img {

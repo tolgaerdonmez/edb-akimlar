@@ -25,10 +25,10 @@ export function Content({ name, authors }: Props): React.ReactElement {
   else if (selectedAuthor < 0)
     listComponent = (
       <ul className="authors horizontalList" key={"authors" + name}>
-        {authors.map(({ name }, i) => (
+        {authors.map(({ name, books }, i) => (
           <li key={name + i.toString()}>
             <Avatar
-              onClick={() => setSelectedAuthor(i)}
+              onClick={books.length > 0 ? () => setSelectedAuthor(i) : undefined}
               title={name}
               src={`/img/authors/${getFilenameFromName(name)}.jpg`}
             />
@@ -53,7 +53,7 @@ export function Content({ name, authors }: Props): React.ReactElement {
           <li key={book + i.toString()}>
             <Avatar
               src={`/img/books/${getFilenameFromName(book)}.jpg`}
-              fallbackSrc="/img/books/empty.jpg"
+              fallbackSrc={`/img/authors/${getFilenameFromName(authors[selectedAuthor].name)}.jpg`}
               title={book}
               shape="rect"
             />
