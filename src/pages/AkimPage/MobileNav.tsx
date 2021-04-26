@@ -26,6 +26,15 @@ export function MobileNav({ currentAkim }: Props): React.ReactElement {
             Ana Sayfa
           </Button>
         </div>
+        <div>
+          <Button
+            className={`navigateButton ${currentAkim === "kaynakca" ? "navigateButtonSelected" : ""}`}
+            to="/kaynakca"
+            onClick={() => setVisible(false)}
+          >
+            Kaynakça
+          </Button>
+        </div>
         {akimlar.map(({ name }, i) => (
           <div key={i}>
             <Button
@@ -37,14 +46,6 @@ export function MobileNav({ currentAkim }: Props): React.ReactElement {
             </Button>
           </div>
         ))}
-        <div>
-          <Button
-            className={`navigateButton ${currentAkim === "kaynakca" ? "navigateButtonSelected" : ""}`}
-            to="/kaynakca"
-          >
-            Kaynakça
-          </Button>
-        </div>
       </div>
     </>
   );
