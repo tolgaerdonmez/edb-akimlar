@@ -19,6 +19,9 @@
     overflow-x: auto;
 
     padding: 3rem;
+    @include short {
+      padding: 1rem 1.5rem;
+    }
 
     .info {
       flex: 4.5;

@@ -14,7 +14,7 @@ export function Avatar({ src, title, alt, onClick, shape, fallbackSrc, ...props 
   return (
     <div className={`avatarContainer ${onClick ? "avatarSelectable" : ""} ${shape || "round"}`} onClick={onClick}>
       <div>
-        <img src={error ? fallbackSrc : src} alt={title || alt} onError={() => setError(true)} {...(props as any)} />
+        <img src={!error ? src : fallbackSrc} alt={title || alt} onError={() => setError(true)} {...(props as any)} />
       </div>
       {title ? <p className="title">{title}</p> : null}
     </div>

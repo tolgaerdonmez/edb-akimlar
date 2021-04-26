@@ -21,6 +21,9 @@ $avatarSize: 18rem;
   p {
     font-size: $avatarSize / 8.5;
     text-align: center;
+    @include short {
+      font-size: 2.3vh;
+    }
   }
 }
 
@@ -55,6 +58,16 @@ $avatarSize: 18rem;
   }
   .rect div {
     width: $mobileSize;
+  }
+}
+
+@include short {
+  .round div {
+    width: 20vh;
+    height: 20vh;
+  }
+  .rect div {
+    height: 20vh;
   }
 }
 

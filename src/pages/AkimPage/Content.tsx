@@ -3,14 +3,14 @@ import { Avatar } from "../../components/Avatar";
 import { ArrowBack } from "../../components/icons/ArrowBack";
 import { Akim } from "../../typings/akim";
 import { getFilenameFromName } from "../../utils/path";
-import { useArticles } from "../../md";
+import { loadArticle } from "../../md";
 
 type Props = Akim;
 
 export function Content({ name, authors }: Props): React.ReactElement {
   const [selectedAuthor, setSelectedAuthor] = useState(-1);
 
-  const Article = useArticles(name);
+  const Article = loadArticle(name);
 
   useEffect(() => {
     setSelectedAuthor(-1);

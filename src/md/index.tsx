@@ -8,7 +8,7 @@ import parnasizm from "./parnasizm.md";
 import romantizm from "./romantizm.md";
 import sembolizm from "./sembolizm.md";
 import sürrealizm from "./sürrealizm.md";
-// : { [key: string]: React.VFC }
+
 export const articles: { [key: string]: React.VFC } = {
   klasisizm,
   naturalizm,
@@ -22,7 +22,7 @@ export const articles: { [key: string]: React.VFC } = {
   realizm,
 };
 
-export function useArticles(name: string) {
+export function loadArticle(name: string) {
   const a = articles[name.toLocaleLowerCase()];
   if (!a) return realizm;
   return a;
