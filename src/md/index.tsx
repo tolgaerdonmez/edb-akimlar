@@ -11,6 +11,7 @@ import romantizm from "./romantizm.mdx";
 import sembolizm from "./sembolizm.mdx";
 import sürrealizm from "./sürrealizm.mdx";
 import egzistanyalizm from "./egzistanyalizm.mdx";
+import dadaizm from "./dadaizm.mdx";
 
 const articles: { [key: string]: React.VFC } = {
   kaynakca,
@@ -25,6 +26,7 @@ const articles: { [key: string]: React.VFC } = {
   sürrealizm,
   realizm,
   egzistanyalizm,
+  dadaizm,
 };
 
 interface ArticleProps {
