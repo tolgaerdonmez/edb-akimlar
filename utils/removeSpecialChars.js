@@ -1,7 +1,7 @@
 const { readdirSync, mkdirSync, copyFileSync } = require("fs");
 const { join } = require("path");
 
-const BASE_PATH = "./public/img/books_";
+const BASE_PATH = "./public/img/converted";
 const DEST_PATH = "./public/img/renamed";
 
 const removeSpecialChars = (name) => {

@@ -10,6 +10,7 @@ import parnasizm from "./parnasizm.mdx";
 import romantizm from "./romantizm.mdx";
 import sembolizm from "./sembolizm.mdx";
 import sürrealizm from "./sürrealizm.mdx";
+import egzistanyalizm from "./egzistanyalizm.mdx";
 
 const articles: { [key: string]: React.VFC } = {
   kaynakca,
@@ -23,6 +24,7 @@ const articles: { [key: string]: React.VFC } = {
   sembolizm,
   sürrealizm,
   realizm,
+  egzistanyalizm,
 };
 
 interface ArticleProps {
