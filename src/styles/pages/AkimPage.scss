@@ -178,6 +178,17 @@
   flex-direction: row;
   align-items: flex-start;
 
+  @include desktop {
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+
+    border-radius: 0.5rem;
+  }
+}
+
+.info,
+.horizontalList {
   &::-webkit-scrollbar-track {
     background-color: transparent;
   }
@@ -189,13 +200,5 @@
 
   &::-webkit-scrollbar-thumb {
     background-color: #555;
-  }
-
-  @include desktop {
-    -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
-    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
-
-    border-radius: 0.5rem;
   }
 }

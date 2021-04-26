@@ -23,6 +23,14 @@ export function Sidebar({ currentAkim }: Props): React.ReactElement {
           </Button>
         </div>
       ))}
+      <div>
+        <Button
+          className={`navigateButton ${currentAkim === "kaynakca" ? "navigateButtonSelected" : ""}`}
+          to="/kaynakca"
+        >
+          Kaynakça
+        </Button>
+      </div>
     </div>
   );
 }

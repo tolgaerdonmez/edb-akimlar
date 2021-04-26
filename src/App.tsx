@@ -10,6 +10,9 @@ function App() {
           <Route path="/akimlar/:name?">
             <AkimPage />
           </Route>
+          <Route path="/kaynakca">
+            <AkimPage initialPage={{ name: "kaynakca", authors: [] }} />
+          </Route>
           <Route path="/">
             <Home />
           </Route>

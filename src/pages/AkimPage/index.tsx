@@ -6,14 +6,22 @@ import { akimlar } from "../../data";
 import { Content } from "./Content";
 import { Sidebar } from "./Sidebar";
 import { MobileNav } from "./MobileNav";
+import { Akim } from "../../typings/akim";
+
+interface Props {
+  initialPage?: Akim;
+}
 
 interface Params {
   name: string;
 }
 
-export function AkimPage(): React.ReactElement {
+export function AkimPage({ initialPage }: Props): React.ReactElement {
   const { name } = useParams<Params>();
-  const currentAkim = akimlar.find((x) => x.name.toLowerCase() === name) || akimlar[0];
+
+  let currentAkim = akimlar.find((x) => x.name.toLowerCase() === name) || akimlar[0];
+  if (initialPage && !name) currentAkim = initialPage;
+
   return (
     <>
       <MobileNav currentAkim={currentAkim.name} />

@@ -1,15 +1,18 @@
-import klasisizm from "./klasisizm.md";
-import realizm from "./realizm.md";
-import naturalizm from "./naturalizm.md";
-import fütürizm from "./fütürizm.md";
-import ekspresyonizm from "./ekspresyonizm.md";
-import empresyonizm from "./empresyonizm.md";
-import parnasizm from "./parnasizm.md";
-import romantizm from "./romantizm.md";
-import sembolizm from "./sembolizm.md";
-import sürrealizm from "./sürrealizm.md";
+import css from "./markdown.module.scss";
+import kaynakca from "./kaynakca.mdx";
+import klasisizm from "./klasisizm.mdx";
+import realizm from "./realizm.mdx";
+import naturalizm from "./naturalizm.mdx";
+import fütürizm from "./fütürizm.mdx";
+import ekspresyonizm from "./ekspresyonizm.mdx";
+import empresyonizm from "./empresyonizm.mdx";
+import parnasizm from "./parnasizm.mdx";
+import romantizm from "./romantizm.mdx";
+import sembolizm from "./sembolizm.mdx";
+import sürrealizm from "./sürrealizm.mdx";
 
-export const articles: { [key: string]: React.VFC } = {
+const articles: { [key: string]: React.VFC } = {
+  kaynakca,
   klasisizm,
   naturalizm,
   fütürizm,
@@ -22,8 +25,17 @@ export const articles: { [key: string]: React.VFC } = {
   realizm,
 };
 
-export function loadArticle(name: string) {
-  const a = articles[name.toLocaleLowerCase()];
-  if (!a) return realizm;
-  return a;
+interface ArticleProps {
+  name: string;
+}
+
+export function Article({ name }: ArticleProps) {
+  let A = articles[name.toLocaleLowerCase()];
+  if (!A) A = realizm;
+
+  return (
+    <div className={css.markdown}>
+      <A />
+    </div>
+  );
 }
