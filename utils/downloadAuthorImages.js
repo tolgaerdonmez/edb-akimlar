@@ -1,8 +1,8 @@
 const { akimlar } = require("../src/data/data.json");
-const { createWriteStream } = require("fs");
+const { createWriteStream, mkdirSync } = require("fs");
 const Axios = require("axios").default;
 
-const getFilenameFromName = (name) => name.replace(/\s/g, "").replace(/[^a-zA-Z ]/g, "");
+const getFilenameFromName = (name) => name.replace(/\s/g, ""); //.replace(/[^a-zA-Z ]/g, "");
 
 const createUrl = (lang) =>
   `http://${lang}.wikipedia.org/w/api.php?action=query&prop=pageimages&format=json&piprop=thumbnail&pithumbsize=400`;
@@ -15,7 +15,7 @@ async function downloadImage(name, lang = "tr") {
       const res = await Axios.get(Object.values(response.data.query.pages)[0].thumbnail.source, {
         responseType: "stream",
       });
-      const writer = createWriteStream(`./public/img/authors/${getFilenameFromName(name)}.jpg`);
+      const writer = createWriteStream(`./public/img/new/${getFilenameFromName(name)}.jpg`);
       res.data.pipe(writer);
       return true;
     } catch {
@@ -29,6 +29,9 @@ async function downloadImage(name, lang = "tr") {
 }
 
 async function main() {
+  try {
+    mkdirSync("./public/img/new");
+  } catch {}
   for (const { authors } of akimlar) {
     if (!authors) continue;
 
