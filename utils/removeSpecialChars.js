@@ -1,4 +1,4 @@
-const { readdirSync, renameSync, mkdirSync } = require("fs");
+const { readdirSync, mkdirSync, copyFileSync } = require("fs");
 const { join } = require("path");
 
 const BASE_PATH = "./public/img/authors_";
@@ -17,5 +17,5 @@ try {
 
 files.forEach((filename) => {
   const n = removeSpecialChars(filename);
-  renameSync(join(BASE_PATH, filename), join(DEST_PATH, n));
+  copyFileSync(join(BASE_PATH, filename), join(DEST_PATH, n));
 });
