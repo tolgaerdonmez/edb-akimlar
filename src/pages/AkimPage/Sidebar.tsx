@@ -9,17 +9,14 @@ export function Sidebar({ currentAkim }: Props): React.ReactElement {
   return (
     <div className="sidebar">
       {akimlar.map(({ name }, i) => (
-        <>
-          <div className="seperator"></div>
-          <div key={i}>
-            <Button
-              className={`navigateButton ${currentAkim === name ? "navigateButtonSelected" : ""}`}
-              to={`/akimlar/${name.toLowerCase()}`}
-            >
-              {name}
-            </Button>
-          </div>
-        </>
+        <div key={i}>
+          <Button
+            className={`navigateButton ${currentAkim === name ? "navigateButtonSelected" : ""}`}
+            to={`/akimlar/${name.toLowerCase()}`}
+          >
+            {name}
+          </Button>
+        </div>
       ))}
     </div>
   );

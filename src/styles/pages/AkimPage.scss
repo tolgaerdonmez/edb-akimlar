@@ -86,11 +86,16 @@
       flex-direction: column;
 
       padding: 1.5rem 3rem;
-
+      @include short {
+        padding: 1.5rem 2rem;
+      }
       border-right: solid 0.3rem white;
       div {
         p {
           font-size: 3rem;
+          @include short {
+            font-size: 2rem;
+          }
         }
       }
     }
