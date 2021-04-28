@@ -11,9 +11,9 @@
 
 > Edebiyat akımlarını tanıtan bir Websitesi, edebiyat dersi projem | A Website spotlighting literary movements, also my literature class project
 
-### 🏠 [Ziyaret Et | Visit](edebi-akimlar.vercel.app)
+### 🏠 [Ziyaret Et | Visit](https://edebi-akimlar.vercel.app)
 
-[![Edebiyat Akımları | Literary Movements](./public/img/og.png)](edebi-akimlar.vercel.app)
+[![Edebiyat Akımları | Literary Movements](./public/img/og.png)](https://edebi-akimlar.vercel.app)
 
 ## Author
 
